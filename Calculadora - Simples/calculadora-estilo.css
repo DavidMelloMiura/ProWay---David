@@ -1,0 +1,39 @@
+body {
+    background-color: azure;
+}
+
+h1 {font-size: 2rem; margin-bottom: 100px;}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.conteudo input {
+    margin-bottom: 10px;
+    height: 50px;
+    text-align: right;
+}
+
+#botao {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#resultado {
+    font-size: 2rem;
+    margin-top: 30px;
+    
+}
+/*
+visibility: hidden;
+*/
